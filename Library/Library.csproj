@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <OutputType>Library</OutputType>
+        <RootNamespace>ZooFramework.WhiteApp.Library</RootNamespace>
+        <AssemblyName>ZooFramework.WhiteApp.Library</AssemblyName>
+        <AssemblyTitle>Library</AssemblyTitle>
+        <Product>Library</Product>
+    </PropertyGroup>
+  
+	<ItemGroup>
+		<None Include="Config\**\*" />
+	</ItemGroup>
+
+    <ItemGroup>
+        <ProtoBuf Include="Services\*.proto">
+            <ProtoRoot>Services</ProtoRoot>
+            <Access Condition="'%(Protobuf.Access)' == '' ">Public</Access>
+            <ProtoCompile Condition="'%(Protobuf.ProtoCompile)' == '' ">True</ProtoCompile>
+            <CompileOutputs Condition="'%(Protobuf.CompileOutputs)' == ''">True</CompileOutputs>
+            <OutputDir Condition="'%(Protobuf.OutputDir)' == '' ">$(Protobuf_OutputPath)</OutputDir>
+        </ProtoBuf>
+    </ItemGroup>
+	
+    <ItemGroup>
+      <PackageReference Include="Grpc.Tools">
+        <PrivateAssets>all</PrivateAssets>
+        <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      </PackageReference>
+		  <PackageReference Include="ZooFramework.Core" />
+  	</ItemGroup>
+</Project>

@@ -1,0 +1,11 @@
+{
+  "ServiceName": "DataService",
+  "Assembly": "ZooFramework.WhiteApp.DataService",
+  "EntryPoint": "ZooFramework.WhiteApp.DataService.DataServiceEntryPoint",
+  "RpcHost": "local.zooframework",
+  "RpcPort": 8054,
+  "ServiceType": "DataServiceRpc",
+  "PreloadCaches": true,
+  "DropMongoCollections": false,
+  "MaxParralelGetRequests": 5
+}

@@ -1,0 +1,14 @@
+﻿{
+  "Clients": [
+    {
+      "Description": "SWAGGER",
+      "ClientId": "nsQTb8Ku/rswLXqKUe+XuVwtW7POMltrMeuP3nGc/KkrLSbM/EHqemED5QW/8Ejk6FtbIQ743thMu3tjNQ0MCb3kRHffKVfg6GpI2K//NIsv/dxA4WdqVTKxXdpQuuKoOOKoqrETsGVa7UuIoYZYOachXqzvEpSwwjVLuC8yxsM=",
+      "ClientSecret": "JCf+8aVQB5lEqFhj+ZfGCwl7ZQvKT+U6U2uCnVc9GAlB5xJgqxLEBva0JRQs+K6UzJ+4ApgfqDJBImqkt6rIceoF8Mx/wy2zI3sdG0SXklUE5WjgOTjHd2oxhTzhe0nc5vXYBxRNwzHsEBNnqp8s8Ef7TkkDdstiUg0kpMlZGVQ="
+    },
+    {
+      "Description": "Front Identifier",
+      "ClientId": "i/ARb9JPZwGFCsm0JI267YX41RrKTZW3ZvhWfFcT+wQfmBmH5ExaJMZRbtxww8Q7bSOdmsxDEGmbes8TeGxTq0hjbq8nIR/61H3Qdqs0tiI4rMXn7h4ZgY4Qjl7QKfEotvYnqIHYkNmBOgWDuxBp/tY9zwVsfTZL4m2C60323ew=",
+      "ClientSecret": "B/dzLXPh7qDOAhCPADAM9m+6bcL0zxeKijBJ/qMfqiVCb9Pb9hhiAYEa7hdpE9DwhkGX6D4Cky7OBLpABhsbL5E5g6ygnm07YlP+wh5UjHhbdJPPFA2a6iJ0LIkLUWzKQNLxp1LlfI3Q497mM2Q2/2tc4fsKA0TLxr3/QiY2jlE="
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "ServiceName": "IncrementationService",
+  "Assembly": "ZooFramework.WhiteApp.IncrementationService",
+  "EntryPoint": "ZooFramework.WhiteApp.IncrementationService.IncrementationServiceEntryPoint",
+  "ServiceType": "Rpc",
+  "RpcHost": "local.zooframework",
+  "RpcPort": 8055
+}

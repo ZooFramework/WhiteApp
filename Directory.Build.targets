@@ -1,0 +1,16 @@
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <Import Project="$(MSBuildThisFileDirectory)Packages.props" />
+	
+	<Target Name="CopyConfigurationFiles" AfterTargets="AfterBuild" Condition=" '$(ConfigFilesNeeded)' == 'true' ">
+		<Message Importance="High" Text="Copy config files to $(TargetDir) : Start" />
+		<ItemGroup>
+		  <ConfigFiles Include="$(SolutionDir)Library\Config\**\*"/>
+		</ItemGroup>
+		<Copy SourceFiles="@(ConfigFiles)" DestinationFolder="$(TargetDir)Config\%(RecursiveDir)" 
+			  SkipUnchangedFiles="true"
+			  OverwriteReadOnlyFiles="true" 
+			  Retries="3"
+			  RetryDelayMilliseconds="300"/>
+		<Message Importance="High" Text="Copy config files to $(TargetDir) : Done" />
+	</Target>
+</Project>

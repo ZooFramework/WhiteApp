@@ -1,0 +1,8 @@
+{
+  "ServiceName": "RegistrationService",
+  "Assembly": "ZooFramework.WhiteApp.RegistrationService",
+  "EntryPoint": "ZooFramework.WhiteApp.RegistrationService.RegistrationServiceEntryPoint",
+  "ServiceType": "Rpc",
+  "RpcHost": "local.zooframework",
+  "RpcPort": 8050
+}

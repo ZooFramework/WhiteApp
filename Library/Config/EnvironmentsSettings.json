@@ -1,0 +1,10 @@
+﻿{
+  "Environments": [
+    {
+      "Name": "DEV",
+      "EnvironmentType": "Dev",
+      "Folder": "Dev"
+    }
+  ],
+  "ActiveEnvironment": "DEV"
+}

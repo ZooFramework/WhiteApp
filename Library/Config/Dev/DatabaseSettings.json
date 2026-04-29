@@ -1,0 +1,8 @@
+﻿{
+  "Username": "OVT421V5uptP2CMnFhQq1xPv1w8sU7NgdzwRnvWhvxkJnD3WCmyy+6YLjqHo6KCv6vO1qwdzc2UFDnthlTxetHPmyU0X/OhstWeDXP6BdgIXI7EGyJYs/HPrm7IHMevgjJJLv1P10AB2f9D7RqLEW3ryyqa3GIN9FJ2KMbz59Yk=",
+  "Password": "m0YuExiYCpZ4cVv19px7sjLUPQZ0ALRmlnEUfB3YhVp0hp9+B+qxGoeKHUgJwe3wGckqr0bY5LXYmvcIoajE3GAtSR9JUy39257EKbDxJXGR3QW0AeG8f2OF89uVgtweJ1ldw0l0892W+Dc4fLgas0EkAcWRlVBWTGXjqUmlNpw=",
+  "Host": "localhost",
+  "Database": "ZooFramework-DEV",
+  "UseSsl": false,  
+  "StreamMaxFetchRow": 1000
+}

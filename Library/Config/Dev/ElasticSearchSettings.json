@@ -1,0 +1,6 @@
+﻿{
+  "EnableTraces": false,
+  "ElasticSearchUri": "https://localhost:9200",
+  "ElasticSearchUsername": "MXkKkW49y2RoDngPA4kUJ4WK8ybcicvp6h7Qq4iuzU0lOENUzXxcHCyEqfmT+NjMA3Ncsepymt5k7ed0ugvSZnlz9nyrWOCLY37SgTYeRejCDxWnc+3RgGSksal7ZZ46vgXkD1do76KqBQpynEttzUMi7R/u84nS/gABGuHXULE=",
+  "ElasticSearchPassword": "qiMQsHSka+ai/UFKjTABUyuNcLi33luzej1mX2gGKdldPWV/dZYasO9/dGq9lyuHmimoYbt07HWHwPcOEImtNO4ZrjdfpkbZnN8NddLVlLZhpEA8YdgKkPGRsqX2VRR8sEnPlzHrWIxZ/FK/pY1F9uyNOnfVI5qOEg/N2bQkVmE="
+}

@@ -1,0 +1,10 @@
+<Project>
+  <ItemGroup>
+    <PackageReference Update="Grpc.Tools" Version="2.29.0" />
+    <PackageReference Update="ZooFramework.Core" Version="1.4.16" />
+    <PackageReference Update="ZooFramework.ApiService" Version="1.4.16" />
+    <PackageReference Update="ZooFramework.DataService" Version="1.4.16" />
+    <PackageReference Update="ZooFramework.IncrementationService" Version="1.4.16" />
+    <PackageReference Update="ZooFramework.RegistrationService" Version="1.4.16" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <RootNamespace>ZooFramework.WhiteApp.DataService</RootNamespace>
+        <AssemblyName>ZooFramework.WhiteApp.DataService</AssemblyName>
+        <AssemblyTitle>DataService</AssemblyTitle>
+        <Product>DataService</Product>
+		<OutputPath>$(SolutionDir)bin\$(Configuration)\$(AssemblyTitle)\</OutputPath>
+		<PublishDir>$(SolutionDir)bin\$(Configuration)\$(AssemblyTitle)\</PublishDir>
+		
+		<ConfigFilesNeeded>true</ConfigFilesNeeded>
+    </PropertyGroup>
+	
+	  <ItemGroup>
+        <ProjectReference Include="..\Library\Library.csproj" />
+    </ItemGroup>
+	
+    <ItemGroup>
+		  <PackageReference Include="ZooFramework.DataService" />
+    </ItemGroup>
+</Project>

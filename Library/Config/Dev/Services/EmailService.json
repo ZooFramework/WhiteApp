@@ -1,0 +1,8 @@
+{
+  "ServiceName": "EmailService",
+  "Assembly": "ZooFramework.EmailService",
+  "EntryPoint": "ZooFramework.EmailService.EmailServiceEntryPoint",
+  "ServiceType": "Rpc",
+  "RpcHost": "local.zooframework",
+  "RpcPort": 8057
+}

@@ -1,0 +1,9 @@
+{
+  "ServiceName": "ApiService",
+  "Assembly": "ZooFramework.WhiteApp.ApiService",
+  "EntryPoint": "ZooFramework.WhiteApp.ApiService.ApiServiceEntryPoint",
+  "ServiceType": "ApiRpc",
+  "ApiEndPoint": "http://local.zooframework:8052",
+  "RpcHost": "local.zooframework",
+  "RpcPort": 8053
+}

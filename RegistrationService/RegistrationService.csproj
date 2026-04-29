@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <RootNamespace>ZooFramework.WhiteApp.RegistrationService</RootNamespace>
+        <AssemblyName>ZooFramework.WhiteApp.RegistrationService</AssemblyName>
+        <AssemblyTitle>RegistrationService</AssemblyTitle>
+        <Product>RegistrationService</Product>
+		<OutputPath>$(SolutionDir)bin\$(Configuration)\$(AssemblyTitle)\</OutputPath>
+		<PublishDir>$(SolutionDir)bin\$(Configuration)\$(AssemblyTitle)\</PublishDir>
+		
+		<ConfigFilesNeeded>true</ConfigFilesNeeded>
+    </PropertyGroup>
+	
+	  <ItemGroup>
+        <ProjectReference Include="..\Library\Library.csproj" />
+    </ItemGroup>
+	
+    <ItemGroup>
+		  <PackageReference Include="ZooFramework.RegistrationService" />
+    </ItemGroup>
+</Project>

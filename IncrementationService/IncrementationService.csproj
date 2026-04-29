@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <RootNamespace>ZooFramework.WhiteApp.IncrementationService</RootNamespace>
+        <AssemblyName>ZooFramework.WhiteApp.IncrementationService</AssemblyName>
+        <AssemblyTitle>IncrementationService</AssemblyTitle>
+        <Product>IncrementationService</Product>
+		<OutputPath>$(SolutionDir)bin\$(Configuration)\$(AssemblyTitle)\</OutputPath>
+		<PublishDir>$(SolutionDir)bin\$(Configuration)\$(AssemblyTitle)\</PublishDir>
+		
+		<ConfigFilesNeeded>true</ConfigFilesNeeded>
+    </PropertyGroup>
+	
+    <ItemGroup>
+        <ProjectReference Include="..\Library\Library.csproj" />
+    </ItemGroup>
+	
+    <ItemGroup>
+		  <PackageReference Include="ZooFramework.IncrementationService" />
+    </ItemGroup>
+</Project>

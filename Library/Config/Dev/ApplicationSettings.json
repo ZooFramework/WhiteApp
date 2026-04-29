@@ -1,0 +1,17 @@
+﻿{
+  "LogLevel": "All",
+  "WebsiteDomain": "http://localhost:8051",
+  "RpcRegistrationEndPoint": "local.zooframework.myvd.eu:8050",
+  "CaCertificatePath": "../../../../Keys/DEV/ca.crt",
+  "ServerCertificateEmpactedPath": "../../../../Keys/DEV/server.pfx",
+  "ServerCertificatePath": "../../../../Keys/DEV/server.crt",
+  "ServerKeyPath": "../../../../Keys/DEV/server.key",
+  "ClientCertificatePath": "../../../../Keys/DEV/client.crt",
+  "ClientKeyPath": "../../../../Keys/DEV/client.key",
+  "DebugGRPC": false,
+  "GrpcTimeoutSeconds": 30,
+  "ContextLockerDebug": false,
+  "DataProvidersAssemblies": [
+	"ZooFramework.WhiteApp.Library.dll"
+  ]
+}
